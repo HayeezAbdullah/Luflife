@@ -9,13 +9,14 @@ import Footer from "./components/Footer";
 import Home from "./Pages/Home";
 import Edit from "./Pages/Edit";
 import Create from "./Pages/Create";
+import Intro from "./components/Intro";
 
 function App() {
   return (
     <Router>
       <div className="container">
         <Navbar></Navbar>
-
+        <Intro></Intro>
         <Switch>
           <Route path="/posts" component={Home}></Route>
           <Route path="/about" component={Edit}></Route>

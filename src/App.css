@@ -16,6 +16,12 @@ body {
   background-color: var(--background);
   color: var(--text);
 }
+.view-posts-btn {
+  background-color: var(--text);
+  color: var(--background);
+  border: none;
+  border-radius: 5px;
+}
 .singlenews {
   border-radius: 20px;
 }
@@ -135,6 +141,13 @@ body {
   height: 200px;
   background-image: url("https://th.bing.com/th/id/R.7f2d8d9986698d0ac2dfa28cda9d32ef?rik=LmrzpSao82zLBw&pid=ImgRaw&r=0");
   border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.about-img {
+  width: 100%; /* Set the width of your div */
+  height: 400px;
+  background-image: url("https://th.bing.com/th/id/R.8bd09f4d7b1239e44797baaa9f01f68b?rik=pkgBm7nHj7EIRA&pid=ImgRaw&r=0");
   background-size: cover;
   background-position: center;
 }

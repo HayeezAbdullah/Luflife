@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <div>
-      <Intro></Intro>
       <motion.div
         className="row my-3 posts"
         initial={{ opacity: 0 }}
