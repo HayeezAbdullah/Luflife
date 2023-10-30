@@ -1,0 +1,49 @@
+:root {
+  --text: rgb(244, 245, 244);
+  --background: rgb(23, 24, 22);
+  --primary: rgb(153, 157, 149);
+  --secondary: rgb(40, 42, 39);
+  --accent: rgb(142, 147, 138);
+}
+
+.editform {
+  background-color: var(--secondary);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; /* Center the form horizontally */
+  margin-top: 50px; /* Adjust this value for vertical centering */
+}
+
+label,
+select {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: var(--secondary);
+  color: var(--text);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.editinput {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: var(--secondary);
+  color: var(--text);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.inputbtn {
+  background-color: var(--accent);
+  color: var(--background);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
